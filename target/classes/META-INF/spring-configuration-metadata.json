@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.beans.User",
+      "sourceType": "com.beans.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.userid",
+      "type": "java.lang.Integer",
+      "sourceType": "com.beans.User",
+      "defaultValue": 0
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.beans.User"
+    }
+  ],
+  "hints": []
+}

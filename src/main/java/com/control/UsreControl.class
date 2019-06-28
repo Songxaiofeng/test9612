@@ -1,0 +1,68 @@
+/*
+
+*/
+/**
+ * Copyright (C), 2015-2019, XXX有限公司
+ * FileName: UsreControl
+ * Author:   1
+ * Date:     2019/6/9 17:38
+ * Description:
+ * History:
+ * <author>          <time>          <version>          <desc>
+ * 作者姓名           修改时间           版本号              描述
+ *//*
+
+
+package com.control;
+
+import com.beans.User;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+*/
+/**
+ * 〈一句话功能简述〉<br> 
+ * 〈〉
+ *
+ * @author 1
+ * @create 2019/6/9
+ * @since 1.0.0
+ *//*
+
+
+@RestController
+@RequestMapping("/user")
+public class UsreControl {
+    */
+/*@GetMapping
+    public User getUser(){
+        User user  = new User("谭晓琳",1);
+        return  user;
+    }
+    @PostMapping
+    public  User addUser(User user){
+
+        return user;
+
+    }*//*
+
+
+    @GetMapping
+    public String test1(){
+
+        return  "12313";
+
+    }
+    @PostMapping
+    public  String test2(String s1){
+
+        return  s1;
+    }
+
+
+}
+
+
+*/
